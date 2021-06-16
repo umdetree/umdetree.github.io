@@ -25,7 +25,7 @@ uint16_t cmd;
 // cmd: to store IRremote signal
 uchar winState = 0;
 // winState: 0 for still playing, 1 for win, 2 for lose
-const uchar gameMode[3][3] = {{8, 12, 1}, {8, 15, 15}, {8, 15, 25}};
+const uchar gameMode[3][3] = {{8, 12, 8}, {8, 15, 15}, {8, 15, 25}};
 const char* modeMines[3]={"8", "15", "25"};
 // modeMines is just used for myLCD.print(), whose output type should be const char*.
 struct vertex{
