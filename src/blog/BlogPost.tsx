@@ -1,17 +1,16 @@
 import React, { useEffect, useState} from 'react';
 import Grid from '@mui/material/Grid';
-import {useParams} from 'react-router-dom';
 import Container from '@mui/material/Container';
 import Markdown from './Markdown';
 import Header from './Header'
 
 interface BlogPostInterface {
-  category: string;
+  category: string,
+  filename: string,
 }
 
 export default function BlogPost(props: BlogPostInterface) {
-  const {category} = props;
-  const {filename} = useParams();
+  const {category, filename} = props;
   const [content, setContent] = useState('');
 
   useEffect(() => {

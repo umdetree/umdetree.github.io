@@ -8,11 +8,11 @@ import Link from '@mui/material/Link';
 
 const sections = [
   { title: 'Deep learning', url: '/dl' },
-  { title: 'Distributed', url: '/dist' },
-  { title: 'Rust', url: '/rust' },
+  { title: 'Distributed', url: '/?category=dist' },
+  { title: 'Rust', url: '/?category=rust' },
   { title: 'Compiler', url: '#' },
   { title: 'Anime', url: '#' },
-  { title: 'Go', url: '/go' },
+  { title: 'Go', url: '/?category=go' },
   { title: 'Science', url: '#' },
   { title: 'Health', url: '#' },
   { title: 'Style', url: '#' },

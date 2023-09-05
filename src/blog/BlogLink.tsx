@@ -19,7 +19,7 @@ export default function BlogLink (props: BlogLinkProps) {
 
   return (
     <Grid item xs={12} md={6}>
-      <CardActionArea component="a" href={`/${category}/${filename}`}>
+      <CardActionArea component="a" href={`/?category=${category}&filename=${filename}`}>
         <Card sx={{ display: 'flex' }}>
           <CardContent sx={{ flex: 1 }}>
             <Typography component="h2" variant="h5">
