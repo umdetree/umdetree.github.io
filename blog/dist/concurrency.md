@@ -12,6 +12,15 @@
 
 具有天然的并发属性，并增强了弹性和容错能力
 
+[Applied Akka Patterns](https://learning.oreilly.com/library/view/applied-akka-patterns/9781491934876/ch01.html#reality-is-eventually-consistent)
+
+- All computation is performed within an actor
+- Actors can communicate only through messages
+- In response to a message, an actor can:
+    - Change its state or behaviour
+    - Send messages to other actors
+    - Create a finite number of child actors
+
 ## LOTOS (CSP/CCS)
 
 关注并发主体的通信，以交互建模计算，简洁地刻画了计算地本质（包括并发）
