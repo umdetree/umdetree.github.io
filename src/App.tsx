@@ -4,12 +4,14 @@ import {BrowserRouter, Routes, Route, useLocation} from 'react-router-dom';
 import BlogPost from "./blog/BlogPost";
 import Page from "./blog/Page";
 
-import {RustPosts, GoPosts, DistPosts} from "./blog/Posts";
+import {RustPosts, GoPosts, DistPosts, OtherPosts, AlgoPosts} from "./blog/Posts";
 
 const category2posts = new Map([
   ["rust", RustPosts],
   ["go", GoPosts],
   ["dist", DistPosts],
+  ["algo", AlgoPosts],
+  ["others", OtherPosts],
 ])
 
 function MainPage() {

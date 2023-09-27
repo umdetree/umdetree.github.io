@@ -10,13 +10,11 @@ const sections = [
   { title: 'Deep learning', url: '/dl' },
   { title: 'Distributed', url: '/?category=dist' },
   { title: 'Rust', url: '/?category=rust' },
+  { title: 'Go', url: '/?category=go' },
+  { title: 'Algorithms', url: '/?category=algo' },
   { title: 'Compiler', url: '#' },
   { title: 'Anime', url: '#' },
-  { title: 'Go', url: '/?category=go' },
-  { title: 'Science', url: '#' },
-  { title: 'Health', url: '#' },
-  { title: 'Style', url: '#' },
-  { title: 'Travel', url: '#' },
+  { title: 'Others', url: '/?category=others' },
 ];
 
 export default function Header({title}: {title: string}) {
