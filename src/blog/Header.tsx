@@ -14,6 +14,7 @@ const sections = [
   { title: 'Algorithms', url: '/?category=algo' },
   { title: 'Compiler', url: '#' },
   { title: 'Anime', url: '#' },
+  { title: 'Os', url: '/?category=os' },
   { title: 'Others', url: '/?category=others' },
 ];
 

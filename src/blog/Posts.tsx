@@ -19,6 +19,10 @@ export const AlgoPosts = [
   {category: "algo", postinfo: {filename: "awesome.md", title: "Useful Algorithms"}},
 ]
 
+export const OsPosts = [
+  {category: "os", postinfo: {filename: "concepts.md", title: "Useful Concepts"}},
+]
+
 export const OtherPosts = [
   {category: "others", postinfo: {filename: "operation.md", title: "Server Operation"}},
 ]
