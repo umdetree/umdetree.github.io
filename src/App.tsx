@@ -4,7 +4,7 @@ import {BrowserRouter, Routes, Route, useLocation} from 'react-router-dom';
 import BlogPost from "./blog/BlogPost";
 import Page from "./blog/Page";
 
-import {RustPosts, GoPosts, DistPosts, OtherPosts, AlgoPosts, OsPosts} from "./blog/Posts";
+import {AiPosts, RustPosts, GoPosts, DistPosts, OtherPosts, AlgoPosts, OsPosts} from "./blog/Posts";
 
 const category2posts = new Map([
   ["rust", RustPosts],
@@ -12,6 +12,7 @@ const category2posts = new Map([
   ["dist", DistPosts],
   ["algo", AlgoPosts],
   ["os", OsPosts],
+  ["ai", AiPosts],
   ["others", OtherPosts],
 ])
 
@@ -28,6 +29,7 @@ function MainPage() {
       </div>
     );
   } else if (filename === "") {
+    // menu page for a certain category
     const posts = category2posts.get(category) ?? [];
     return (
       <div className="SubPage">

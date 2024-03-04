@@ -12,6 +12,7 @@ const sections = [
   { title: 'Rust', url: '/?category=rust' },
   { title: 'Go', url: '/?category=go' },
   { title: 'Algorithms', url: '/?category=algo' },
+  { title: 'AI', url: '/?category=ai' },
   { title: 'Compiler', url: '#' },
   { title: 'Anime', url: '#' },
   { title: 'Os', url: '/?category=os' },

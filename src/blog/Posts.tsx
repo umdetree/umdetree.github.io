@@ -1,5 +1,9 @@
 const FeaturePosts = [
-  {category: "rust", postinfo: {filename: "otherBlogs.md", title: "Blogs about Rust"}},
+  {category: "rust", postinfo: {filename: "awesome.md", title: "Blogs about Rust"}},
+]
+
+export const AiPosts = [
+  {category: "ai", postinfo: {filename: "model_blogs.md", title: "Awesome AI Blogs"}},
 ]
 
 export const RustPosts = [
