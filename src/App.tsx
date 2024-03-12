@@ -4,7 +4,7 @@ import {BrowserRouter, Routes, Route, useLocation} from 'react-router-dom';
 import BlogPost from "./blog/BlogPost";
 import Page from "./blog/Page";
 
-import {AiPosts, RustPosts, GoPosts, DistPosts, OtherPosts, AlgoPosts, OsPosts} from "./blog/Posts";
+import {DLPosts, RustPosts, GoPosts, DistPosts, OtherPosts, AlgoPosts, OsPosts} from "./blog/Posts";
 
 const category2posts = new Map([
   ["rust", RustPosts],
@@ -12,7 +12,7 @@ const category2posts = new Map([
   ["dist", DistPosts],
   ["algo", AlgoPosts],
   ["os", OsPosts],
-  ["ai", AiPosts],
+  ["dl", DLPosts],
   ["others", OtherPosts],
 ])
 

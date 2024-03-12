@@ -7,12 +7,11 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 
 const sections = [
-  { title: 'Deep learning', url: '/dl' },
+  { title: 'Deep learning', url: '/?category=dl' },
   { title: 'Distributed', url: '/?category=dist' },
   { title: 'Rust', url: '/?category=rust' },
   { title: 'Go', url: '/?category=go' },
   { title: 'Algorithms', url: '/?category=algo' },
-  { title: 'AI', url: '/?category=ai' },
   { title: 'Compiler', url: '#' },
   { title: 'Anime', url: '#' },
   { title: 'Os', url: '/?category=os' },
