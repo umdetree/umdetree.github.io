@@ -29,6 +29,7 @@ export const OsPosts = [
 
 export const OtherPosts = [
   {category: "others", postinfo: {filename: "operation.md", title: "Server Operation"}},
+  {category: "others", postinfo: {filename: "awesome.md", title: "some other knowledge"}},
 ]
 
 export default FeaturePosts
