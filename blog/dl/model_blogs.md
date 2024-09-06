@@ -9,3 +9,5 @@
 [Low-Rank Adaptation](https://lightning.ai/pages/community/article/lora-llm/)
 
 [Diffusion Models](https://medium.com/@kemalpiro/step-by-step-visual-introduction-to-diffusion-models-235942d2f15c)
+
+[Diffusion is spectral autoregression](https://sander.ai/2024/09/02/spectral-autoregression.html)
