@@ -11,3 +11,7 @@
 [rust-numpy](https://github.com/PyO3/rust-numpy)
 
 [pingora: a library for building fast, reliable and evolvable network services](https://github.com/cloudflare/pingora/tree/main)
+
+[Writing an OS in Rust](https://os.phil-opp.com/)
+
+[Master hexagonal architecture in Rust](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust)
